@@ -1,0 +1,13 @@
+$bodyFonts:16px;
+$primaryColor:#2F3648;
+$secondaryColor:#F6851F;
+$bgPrimary:#f7f7f7 !important;
+$primarTransition:.5s;
+$sectionPadding:60px 0px;
+
+// mixin
+@mixin bgProperty($bgs, $bgp, $bgr) {
+    background-size: $bgs;
+    background-position: $bgp;
+    background-repeat: $bgr;
+}

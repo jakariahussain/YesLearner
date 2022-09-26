@@ -1,0 +1,48 @@
+.blog-area {
+    padding: $sectionPadding;
+
+    .blog-wrapp {
+        margin-top: 40px;
+        transition: $primarTransition;
+        .blog-thumbs {
+            height: 180px;
+            @include bgProperty(cover, center, no-repeat);
+        }
+
+        .blog-content-wrapp {
+            padding: 0 30px 30px 30px;
+
+            h3 {
+                font-size: 17px;
+                font-weight: 600;
+                padding: 10px 0;
+                line-height: 23px;
+                text-align: left !important;
+            }
+            ul{
+                padding-bottom: 10px;
+                li{
+                    margin-right: 30px;
+                    font-size: 15px;
+                    &:last-child{
+                        margin-right: 0;
+                    }
+                }
+            }
+            p{
+                font-size: 15px;
+                text-align: left !important;
+                padding-bottom: 10px;
+            }
+            a{
+                display: inline-block;
+                margin-top: 10px;
+                color: inherit;
+            }
+            
+        }
+        &:hover{
+            margin-top: 36px;
+        }
+    }
+}

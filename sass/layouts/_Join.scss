@@ -1,0 +1,53 @@
+.join-course{
+    padding: $sectionPadding;
+    background: $primaryColor;
+    position: relative;
+    &::before{
+        position: absolute;
+        content: '';
+        width: 50%;
+        height: 100%;
+        background: url('../images/join/bg.jpg');
+        @include bgProperty(cover, right, no-repeat);
+        right: 0;
+        top: 0;
+    }
+    .section-title{
+        h2{
+            color: #fff;
+            &::before{
+                background: #fff;
+            }
+        }
+    }
+    .joining-form{
+        padding-right: 30px;
+        padding-top: 40px;
+        label{
+            color: #fff;
+        }
+        input, textarea{
+            color: #fff;
+            margin-bottom: 10px;
+        }
+        .form-control{
+            background: transparent;
+            border-radius: 0;
+            border: 0;
+            border-bottom: 1px solid #fff;
+        }
+        .form-control:focus{
+            outline: none;
+            border: 0;
+            border-bottom: 1px solid $secondaryColor;
+            box-shadow: none;
+        }
+        textarea{
+            resize: inherit;
+        }
+        button{
+            background: $secondaryColor !important;
+            margin-top: 20px;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.section-title{
+    h2{
+        font-size: 40px;
+        font-weight: 600;
+        margin-bottom: 30px;
+        position: relative;
+        &::before{
+            position: absolute;
+            content: '';
+            width: 20%;
+            height: 2px;
+            background: $primaryColor;
+            bottom: -10px;
+        }
+    }
+}

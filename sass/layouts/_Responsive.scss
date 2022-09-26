@@ -1,0 +1,85 @@
+@media(max-width:991px){
+    .Header-top .topbar-content{
+        display: none;
+    }
+    .student-login .loging-form{
+        width: 100% !important;
+    }
+    .student-login .loging-form .login-wrapp{
+        padding: 40px 30px !important;
+    }
+    .student-login .loging-form .login-wrapp .loging-thumb{
+        width: 70%;
+    }
+    .tst-mct.float-end {
+        float: left !important;
+    }
+    .header-wrapp {
+        display: block !important;
+    }
+    header .header .header-wrapp .logo {
+        width: 50%;
+    }
+    .mean-container .mean-bar{
+        background: none;
+        padding: 0;
+    }
+    .mean-container a.meanmenu-reveal{
+        top: -30px;
+        color: #2f3648;
+        right: 8px !important;
+    }
+    .mean-container .mean-bar{
+        position: absolute;
+        right: 0px;
+        margin-top: -7px;
+    }
+    .mean-container .mean-nav{
+        margin-top: 22px;
+    }
+    .banner-area .banner-slider .single-banner-slide .banner-content h2 {
+        font-size: 29px;
+        padding-left: 10px;
+    }
+    .banner-area .banner-slider .single-banner-slide{
+        height: 500px;
+    }
+    .banner-area .banner-slider .single-banner-slide .banner-content .banner-btn a {
+        margin-right: 12px;
+        padding: 10px 20px;
+    }
+    .about-area .about-content {
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .our-gallery .gallery-wrapp {
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+    .our-gallery .gallery-wrapp .single-gallery{
+        width: 48%;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+    .join-course::before{
+        display: none;
+    }
+    .section-title h2{
+        font-size: 30px;
+    }
+    .socials-icon {
+        margin-bottom: 30px;
+    }
+    .privacy-policy{
+        margin-top: 10px;    
+    }
+    .privacy-policy ul {
+        justify-content: start !important;
+    }
+    footer .footer .footer-address .contact-wrapp .location-address ul li {
+        margin-bottom: 15px;
+    }
+    .footer-list {
+        margin-bottom: 10px;
+    }
+}

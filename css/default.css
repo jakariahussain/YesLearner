@@ -1,0 +1,33 @@
+.box-shadow {
+    box-shadow: 0px 0px 16px rgb(4 59 80 / 10%);
+}
+.box-shadow-hover:hover{
+    box-shadow: 0px 0px 16px rgb(4 59 80 / 10%);
+    background: #fff !important;
+}
+p{
+    margin: 0;
+    line-height: 25px;
+}
+.btn-check:active+.btn-primary:focus, .btn-check:checked+.btn-primary:focus, .btn-primary.active:focus, .btn-primary:active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+.btn-check:focus+.btn-primary, .btn-primary:focus{
+    box-shadow: none !important;
+}
+.custom-btn {
+    background: #2F3648 !important;
+    border-color: #2F3648 !important;
+    border: 0;
+    color: #ffffff !important;
+    border-radius: 0;
+    padding: 10px 26px;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: .3s;
+}
+.custom-btn:hover{
+    background: #F6851F !important;
+}

@@ -1,0 +1,20 @@
+.about-area{
+    padding: $sectionPadding;
+    .about-content{
+        padding: 0 30px 0 0;
+        h4{
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 26px;
+        }
+        p{
+            padding: 10px 0;
+            line-height: 25px;
+            font-size: 15px;
+        }
+        a{
+            margin-top: 10px;
+            display: inline-block;
+        }
+    }
+}

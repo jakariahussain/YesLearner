@@ -1,0 +1,38 @@
+.our-courses{
+    padding: $sectionPadding;
+    background: $bgPrimary;
+    .course-wrapp{
+        margin-top: 40px;
+        .single-course{
+            .course-thumb{
+                height: 200px;
+                @include bgProperty(cover, center, no-repeat);
+            }
+            .course-content{
+                background: $primaryColor;
+                padding: 15px 10px 30px 10px;
+                border-radius: 0px 0px 5px 5px;
+                h5{
+                    font-size: 18px;
+                    color: #ffffff;
+                }
+                p{
+                    color: #ffffff;
+                    font-size: 15px;
+                    margin: 10px 0;
+                    margin-bottom: 0;
+                }
+                a{
+                    margin-top: 20px;
+                    background: #ffffff !important;
+                    text-transform: capitalize;
+                    color: $primaryColor !important;
+                    &:hover{
+                        background: $secondaryColor !important;
+                        color: #ffffff !important;
+                    }
+                }
+            }
+        }
+    }
+}

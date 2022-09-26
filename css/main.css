@@ -1,0 +1,733 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-size: 16px;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  transition: 0.5s !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.Header-top {
+  padding: 15px 0;
+  background: #2F3648;
+}
+
+.Header-top .topbar-content {
+  height: 100%;
+  display: flex;
+}
+
+.Header-top .topbar-content ul li {
+  padding-right: 20px;
+  border-right: 1px solid #F6851F;
+}
+
+.Header-top .topbar-content ul li span {
+  color: #F6851F;
+  margin-right: 8px;
+}
+
+.Header-top .topbar-content ul li:last-child {
+  padding-right: 0;
+  padding-left: 20px;
+  border-right: 0;
+}
+
+.Header-top .topbar-content ul li a {
+  color: #ffffff;
+}
+
+.Header-top .tst-mct .custom-btn {
+  background: #F6851F !important;
+}
+
+.Header-top .tst-mct .singUplogin ul li {
+  margin-right: 5px;
+}
+
+.Header-top .tst-mct .singUplogin ul li:first-child {
+  margin-left: 10px;
+}
+
+.Header-top .tst-mct .singUplogin ul li:last-child {
+  margin-right: 0;
+}
+
+.Header-top .tst-mct .singUplogin ul li a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+header .header {
+  padding: 15px 0;
+  background: #ffffff;
+}
+
+header .header .header-wrapp .logo {
+  width: 15%;
+}
+
+header .header .header-wrapp .logo a img {
+  width: 100%;
+}
+
+header .header .header-wrapp .header-main-menu nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+header .header .header-wrapp .header-main-menu nav ul li:last-child {
+  margin-right: 0;
+}
+
+header .header .header-wrapp .header-main-menu nav ul li a {
+  color: #2F3648;
+  font-weight: 400;
+  transition: 0.5s;
+  text-transform: capitalize;
+}
+
+header .header .header-wrapp .header-main-menu nav ul li a:hover {
+  color: #F6851F;
+}
+
+.banner-area .banner-slider .single-banner-slide {
+  height: 800px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+}
+
+.banner-area .banner-slider .single-banner-slide::before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: #092c3e;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  opacity: .8;
+}
+
+.banner-area .banner-slider .single-banner-slide .banner-content h2 {
+  font-size: 70px;
+  color: #ffffff;
+  border-left: 5px solid #FCC741;
+  padding-left: 30px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.banner-area .banner-slider .single-banner-slide .banner-content p {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 40px 0;
+}
+
+.banner-area .banner-slider .single-banner-slide .banner-content .banner-btn a {
+  margin-right: 20px;
+}
+
+.banner-area .banner-slider .single-banner-slide .banner-content .banner-btn a:first-child {
+  background: transparent !important;
+  border: 1px solid #ffffff !important;
+}
+
+.banner-area .banner-slider .single-banner-slide .banner-content .banner-btn a:last-child {
+  margin-right: 0;
+  background: #F6851F !important;
+}
+
+.about-area {
+  padding: 60px 0px;
+}
+
+.about-area .about-content {
+  padding: 0 30px 0 0;
+}
+
+.about-area .about-content h4 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.about-area .about-content p {
+  padding: 10px 0;
+  line-height: 25px;
+  font-size: 15px;
+}
+
+.about-area .about-content a {
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.section-title h2 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.section-title h2::before {
+  position: absolute;
+  content: '';
+  width: 20%;
+  height: 2px;
+  background: #2F3648;
+  bottom: -10px;
+}
+
+.our-courses {
+  padding: 60px 0px;
+  background: #f7f7f7 !important;
+}
+
+.our-courses .course-wrapp {
+  margin-top: 40px;
+}
+
+.our-courses .course-wrapp .single-course .course-thumb {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.our-courses .course-wrapp .single-course .course-content {
+  background: #2F3648;
+  padding: 15px 10px 30px 10px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.our-courses .course-wrapp .single-course .course-content h5 {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.our-courses .course-wrapp .single-course .course-content p {
+  color: #ffffff;
+  font-size: 15px;
+  margin: 10px 0;
+  margin-bottom: 0;
+}
+
+.our-courses .course-wrapp .single-course .course-content a {
+  margin-top: 20px;
+  background: #ffffff !important;
+  text-transform: capitalize;
+  color: #2F3648 !important;
+}
+
+.our-courses .course-wrapp .single-course .course-content a:hover {
+  background: #F6851F !important;
+  color: #ffffff !important;
+}
+
+.our-gallery {
+  padding: 60px 0px;
+  background: #2F3648;
+}
+
+.our-gallery .section-title h2 {
+  color: #fff;
+}
+
+.our-gallery .section-title h2::before {
+  background: #fff;
+}
+
+.our-gallery .gallery-wrapp {
+  margin-top: 30px;
+}
+
+.our-gallery .gallery-wrapp .single-gallery {
+  height: 200px;
+  width: 100%;
+  margin-right: 10px;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+}
+
+.our-gallery .gallery-wrapp .single-gallery::before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: 0.5s;
+  z-index: -1;
+}
+
+.our-gallery .gallery-wrapp .single-gallery a {
+  font-size: 30px;
+  display: block;
+  color: #fff;
+  opacity: 0;
+  margin-top: 100px;
+  transition: 0.5s;
+}
+
+.our-gallery .gallery-wrapp .single-gallery:hover::before {
+  opacity: .5;
+  transform: scaleX(1);
+}
+
+.our-gallery .gallery-wrapp .single-gallery:hover a {
+  opacity: 1;
+  margin-top: 0;
+}
+
+.blog-area {
+  padding: 60px 0px;
+}
+
+.blog-area .blog-wrapp {
+  margin-top: 40px;
+  transition: 0.5s;
+}
+
+.blog-area .blog-wrapp .blog-thumbs {
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.blog-area .blog-wrapp .blog-content-wrapp {
+  padding: 0 30px 30px 30px;
+}
+
+.blog-area .blog-wrapp .blog-content-wrapp h3 {
+  font-size: 17px;
+  font-weight: 600;
+  padding: 10px 0;
+  line-height: 23px;
+  text-align: left !important;
+}
+
+.blog-area .blog-wrapp .blog-content-wrapp ul {
+  padding-bottom: 10px;
+}
+
+.blog-area .blog-wrapp .blog-content-wrapp ul li {
+  margin-right: 30px;
+  font-size: 15px;
+}
+
+.blog-area .blog-wrapp .blog-content-wrapp ul li:last-child {
+  margin-right: 0;
+}
+
+.blog-area .blog-wrapp .blog-content-wrapp p {
+  font-size: 15px;
+  text-align: left !important;
+  padding-bottom: 10px;
+}
+
+.blog-area .blog-wrapp .blog-content-wrapp a {
+  display: inline-block;
+  margin-top: 10px;
+  color: inherit;
+}
+
+.blog-area .blog-wrapp:hover {
+  margin-top: 36px;
+}
+
+.join-course {
+  padding: 60px 0px;
+  background: #2F3648;
+  position: relative;
+}
+
+.join-course::before {
+  position: absolute;
+  content: '';
+  width: 50%;
+  height: 100%;
+  background: url("../images/join/bg.jpg");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  right: 0;
+  top: 0;
+}
+
+.join-course .section-title h2 {
+  color: #fff;
+}
+
+.join-course .section-title h2::before {
+  background: #fff;
+}
+
+.join-course .joining-form {
+  padding-right: 30px;
+  padding-top: 40px;
+}
+
+.join-course .joining-form label {
+  color: #fff;
+}
+
+.join-course .joining-form input, .join-course .joining-form textarea {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.join-course .joining-form .form-control {
+  background: transparent;
+  border-radius: 0;
+  border: 0;
+  border-bottom: 1px solid #fff;
+}
+
+.join-course .joining-form .form-control:focus {
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid #F6851F;
+  box-shadow: none;
+}
+
+.join-course .joining-form textarea {
+  resize: inherit;
+}
+
+.join-course .joining-form button {
+  background: #F6851F !important;
+  margin-top: 20px;
+}
+
+.student-login {
+  position: relative;
+  z-index: 0;
+}
+
+.student-login::before {
+  position: absolute;
+  content: '';
+  width: 50%;
+  height: 100%;
+  background: url("../images/banner/1.jpg") no-repeat;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+}
+
+.student-login::after {
+  position: absolute;
+  content: '';
+  width: 50%;
+  height: 100%;
+  background: #000;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  opacity: .4;
+}
+
+.student-login .loging-form {
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.student-login .loging-form .login-wrapp {
+  padding: 40px 50px;
+  background: #fff;
+}
+
+.student-login .loging-form .login-wrapp .loging-thumb {
+  margin-bottom: 40px !important;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.student-login .loging-form .login-wrapp .form-login {
+  margin-top: 20px;
+}
+
+.student-login .loging-form .login-wrapp .form-login input {
+  padding: 5px 10px;
+  margin-bottom: 15px;
+}
+
+.student-login .loging-form .login-wrapp .form-login .form-check input {
+  padding: 8px;
+}
+
+.student-login .loging-form .login-wrapp .form-login .form-check label {
+  font-size: 15px;
+}
+
+.student-login .loging-form .login-wrapp .form-login .form-check a {
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.student-login .loging-form .login-wrapp .form-login button {
+  padding: 10px 30px !important;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 35px;
+}
+
+footer .footer {
+  padding: 60px 0px;
+}
+
+footer .footer .footer-sidebar {
+  padding-right: 30px;
+}
+
+footer .footer .footer-sidebar aside .footer-logo {
+  width: 50%;
+}
+
+footer .footer .footer-sidebar aside .footer-logo img {
+  width: 100%;
+}
+
+footer .footer .footer-sidebar aside .footer-article {
+  margin: 20px 0;
+}
+
+footer .footer .footer-sidebar aside .footer-article p {
+  font-size: 15px;
+}
+
+footer .footer .footer-sidebar aside .socials-icon h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+footer .footer .footer-sidebar aside .socials-icon ul li {
+  margin-right: 10px;
+}
+
+footer .footer .footer-sidebar aside .socials-icon ul li:last-child {
+  margin-right: 0;
+}
+
+footer .footer .footer-sidebar aside .socials-icon ul li a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2F3648;
+  border-radius: 50%;
+  color: #fff;
+  transition: 0.5s;
+}
+
+footer .footer .footer-sidebar aside .socials-icon ul li a:hover {
+  background: #F6851F;
+}
+
+footer .footer .footer-list h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #2F3648;
+}
+
+footer .footer .footer-list ul li {
+  margin-bottom: 7px;
+}
+
+footer .footer .footer-list ul li a {
+  color: #2F3648;
+  font-size: 15px;
+  transition: 0.5s;
+}
+
+footer .footer .footer-list ul li a:hover {
+  color: #F6851F;
+}
+
+footer .footer .footer-address h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #2F3648;
+}
+
+footer .footer .footer-address .contact-wrapp .single-icon {
+  margin-right: 15px;
+}
+
+footer .footer .footer-address .contact-wrapp .single-icon span {
+  font-size: 20px;
+}
+
+footer .footer .footer-address .contact-wrapp .location-address ul li {
+  margin-bottom: 10px;
+}
+
+footer .footer .footer-address .contact-wrapp .location-address ul li span {
+  margin-right: 0;
+}
+
+footer .footer .footer-address .contact-wrapp .location-address ul li a {
+  color: #2F3648;
+  font-size: 15px;
+  transition: 0.5s;
+}
+
+footer .footer .footer-address .contact-wrapp .location-address ul li a:hover {
+  color: #F6851F;
+}
+
+.copyrights {
+  background: #2F3648;
+  padding: 15px 0;
+}
+
+.copyrights .copyrights-content p {
+  color: #fff;
+}
+
+.copyrights .copyrights-content p a {
+  color: #F6851F;
+}
+
+.copyrights .privacy-policy ul li {
+  margin-right: 15px;
+}
+
+.copyrights .privacy-policy ul li:last-child {
+  margin-right: 0;
+}
+
+.copyrights .privacy-policy ul li a {
+  color: #fff;
+  transition: 0.5s;
+}
+
+.copyrights .privacy-policy ul li a:hover {
+  color: #F6851F;
+}
+
+@media (max-width: 991px) {
+  .Header-top .topbar-content {
+    display: none;
+  }
+  .student-login .loging-form {
+    width: 100% !important;
+  }
+  .student-login .loging-form .login-wrapp {
+    padding: 40px 30px !important;
+  }
+  .student-login .loging-form .login-wrapp .loging-thumb {
+    width: 70%;
+  }
+  .tst-mct.float-end {
+    float: left !important;
+  }
+  .header-wrapp {
+    display: block !important;
+  }
+  header .header .header-wrapp .logo {
+    width: 50%;
+  }
+  .mean-container .mean-bar {
+    background: none;
+    padding: 0;
+  }
+  .mean-container a.meanmenu-reveal {
+    top: -30px;
+    color: #2f3648;
+    right: 8px !important;
+  }
+  .mean-container .mean-bar {
+    position: absolute;
+    right: 0px;
+    margin-top: -7px;
+  }
+  .mean-container .mean-nav {
+    margin-top: 22px;
+  }
+  .banner-area .banner-slider .single-banner-slide .banner-content h2 {
+    font-size: 29px;
+    padding-left: 10px;
+  }
+  .banner-area .banner-slider .single-banner-slide {
+    height: 500px;
+  }
+  .banner-area .banner-slider .single-banner-slide .banner-content .banner-btn a {
+    margin-right: 12px;
+    padding: 10px 20px;
+  }
+  .about-area .about-content {
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  .our-gallery .gallery-wrapp {
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  .our-gallery .gallery-wrapp .single-gallery {
+    width: 48%;
+    margin-right: 0;
+    margin-top: 20px;
+  }
+  .join-course::before {
+    display: none;
+  }
+  .section-title h2 {
+    font-size: 30px;
+  }
+  .socials-icon {
+    margin-bottom: 30px;
+  }
+  .privacy-policy {
+    margin-top: 10px;
+  }
+  .privacy-policy ul {
+    justify-content: start !important;
+  }
+  footer .footer .footer-address .contact-wrapp .location-address ul li {
+    margin-bottom: 15px;
+  }
+  .footer-list {
+    margin-bottom: 10px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

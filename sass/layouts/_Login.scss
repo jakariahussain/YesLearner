@@ -1,0 +1,66 @@
+.student-login{
+    position: relative;
+    z-index: 0;
+    &::before{
+        position: absolute;
+        content: '';
+        width: 50%;
+        height: 100%;
+        background: url("../images/banner/1.jpg") no-repeat;
+        z-index: -1;
+        background-size: cover;
+        background-position: center;
+    }
+    &::after{
+        position: absolute;
+        content: '';
+        width: 50%;
+        height: 100%;
+        background: #000;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        opacity: .4;
+    }
+    .loging-form{
+        height: 100vh;
+        margin: 0 auto;
+        .login-wrapp{
+            padding: 40px 50px;
+            background: #fff;
+            .loging-thumb{
+                margin-bottom: 40px !important;
+                width: 40%;
+                margin: 0 auto;
+            }
+            .form-login{
+                margin-top: 20px;
+                input{
+                    padding:5px 10px;
+                    margin-bottom: 15px;
+                }
+                .form-check{
+                    input{
+                        padding: 8px;
+                    }
+                    label{
+                        font-size: 15px;
+                    }
+                    a{
+                        font-size: 14px;
+                        padding-left: 10px;
+                    }
+                }
+                button{
+                    padding: 10px 30px !important;
+                    width: 50%;
+                    display: flex;
+                    justify-content: center;
+                    margin: 0 auto;
+                    border-radius: 35px;
+                }
+            }
+        }
+    }
+}
+
